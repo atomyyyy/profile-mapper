@@ -6,12 +6,14 @@
   "author": "atomyyyy <atomyuen95@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "NODE_NO_WARNINGS=1 node src/index.js"
   },
   "devDependencies": {
     "@faker-js/faker": "^8.3.1"
   },
   "dependencies": {
-    "disjoint-set": "^1.1.8"
+    "disjoint-set-ds": "^1.0.1",
+    "json-to-csv": "^1.0.0",
+    "lodash": "^4.17.21"
   }
 }
