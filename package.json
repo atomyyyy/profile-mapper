@@ -1,0 +1,17 @@
+{
+  "name": "profile-mapper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:atomyyyy/profile-mapper.git",
+  "author": "atomyyyy <atomyuen95@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.3.1"
+  },
+  "dependencies": {
+    "disjoint-set": "^1.1.8"
+  }
+}
